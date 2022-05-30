@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Florist master</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <section class="hero section" id="hero">
+            <header class="header">
+                <div class="container header__container">
+                    <div class="logo">
+                        <img class="logo__img" src="img/logo-floratium.png" alt="floratium">
+                        <div class="logo__text">
+                            <div class="logo__title">Florist master</div>
+                            <div class="logo__subtitle">Магазин флорариумов</div>
+                        </div>
+                    </div>
+                    <nav class="nav">
+                        <ul class="nav__list">
+                            <li class="nav__item">
+                                <a class="nav__link" href="#hero">Главная</a>
+                            </li>
+                            <li class="nav__item">
+                                <a class="nav__link" href="#!">Каталог</a>
+                            </li>
+                            <li class="nav__item">
+                                <a class="nav__link" href="#!">Контакты</a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <a class="tel" href="tel:+7 654 321 00 00">+7 654 321 00 00</a>
+                    <a class="basket" href="#!">
+                        <div class="basket__img-wrap">
+                            <img class="basket__img" src="img/icons/shopping_cart.png" alt="basket">
+                        </div>
+                        <div class="basket__price">
+                            <span class="basket__count">45.00</span>
+                            <span class="basket__currency">$</span>
+                        </div>
+                        <img class="basket__btn" src="img/icons/triangle__down.png" alt="triangle__down">
+                    </a>
+                    <div class="header__burger">
+                        <span></span>
+                    </div>
+                </div>
+            </header>
+            <div class="hero__main">
+                <div class="hero__desc hero__item">
+                    <div class="container">
+                        <div class="hero__content">
+                            <h1 class="hero__title">
+                                Флорариумы <br>
+                                любой формы и размера
+                            </h1>
+                            <p class="hero__subtitle">
+                                Самая впечатляющая глава в истории ботаники <br>
+                                у вас прямо на столе
+                            </p>
+                            <a class="btn" href="#!">
+                                Смотреть каталог
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="hero__slider hero__item">
+                    <img class="hero__img" src="img/hero_img.jpg" alt="hero">
+                </div>
+            </div>
+        </section>
+        <section class="section product">
+            <div class="container">
+                <h2 class="section__title">Готовые работы</h2>
+                <div class="product__subtitle">
+                    Подбери себе флорариум по размеру:
+                </div>
+                <ul class="product__triggers">
+                    <li class="product__trigger">
+                        <label>
+                            <input type="radio" name="size" class="trigger__btn">
+                            <div class="trigger__btn-fake">S</div>
+                        </label>
+                    </li>
+                    <li class="product__trigger">
+                        <label>
+                            <input type="radio" name="size" class="trigger__btn">
+                            <div class="trigger__btn-fake">M</div>
+                        </label>
+                    </li>
+                    <li class="product__trigger">
+                        <label>
+                            <input type="radio" name="size" class="trigger__btn">
+                            <div class="trigger__btn-fake">L</div>
+                        </label>
+                    </li>
+                    <li class="product__trigger">
+                        <label>
+                            <input type="radio" name="size" class="trigger__btn">
+                            <div class="trigger__btn-fake">XL</div>
+                        </label>
+                    </li>
+                </ul>
+            </div>
+        </section>
+    </div>
+</body>
+
+</html>
