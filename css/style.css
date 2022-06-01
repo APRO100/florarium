@@ -514,3 +514,5 @@ img {
     border-radius: 50px;
     cursor: pointer;
 }
+
+@media (max-width:768px) {}
