@@ -66,7 +66,7 @@
         </header>
         <main class="main">
             <section class="section hero">
-                <div class="hero__content hero__item">
+                <div class="hero__content hero__items">
                     <div class="container">
                         <div class="hero__body">
                             <h1 class="title hero__title">
@@ -83,15 +83,42 @@
                         </div>
                     </div>
                 </div>
-                <div class="hero__img hero__item">
-                    <img src="img/hero_img.jpg" alt="" class="hero__pic">
+                <div class="hero__img hero__items">
+                    <div class="hero__item">
+                        <img src="img/photo_gallery/Best.jpg" alt="" class="hero__pic">
+                    </div>
+                    <div class="hero__item">
+                        <img src="img/photo_gallery/Budget.jpg" alt="" class="hero__pic">
+                    </div>
+                    <div class="hero__item">
+                        <img src="img/photo_gallery/Florarium.jpg" alt="" class="hero__pic">
+                    </div>
+                    <div class="hero__item">
+                        <img src="img/photo_gallery/Floriana_for_her.jpg" alt="" class="hero__pic">
+                    </div>
+                    <div class="hero__item">
+                        <img src="img/photo_gallery/interier.jpg" alt="" class="hero__pic">
+                    </div>
+                    <div class="hero__item">
+                        <img src="img/photo_gallery/Present.jpg" alt="" class="hero__pic">
+                    </div>
+                    <div class="hero__item">
+                        <img src="img/photo_gallery/Succulents.jpg" alt="" class="hero__pic">
+                    </div>
+                    <div class="hero__item">
+                        <img src="img/photo_gallery/uyut.jpg" alt="" class="hero__pic">
+                    </div>
+                    <a class="prev" onclick="minusSlide()" id="prev">&#10094;</a>
+                    <a class="next" onclick="plusSlide()" id="next">&#10095;</a>
                     <div class="hero__dots">
-                        <ul class="hero__dots-list">
-                            <li class="hero__dot"></li>
-                            <li class="hero__dot active"></li>
-                            <li class="hero__dot"></li>
-                            <li class="hero__dot"></li>
-                        </ul>
+                        <span class="hero-dots_item" onclick="currentSlide(1)"></span> 
+                        <span class="hero-dots_item" onclick="currentSlide(2)"></span> 
+                        <span class="hero-dots_item" onclick="currentSlide(3)"></span> 
+                        <span class="hero-dots_item" onclick="currentSlide(4)"></span> 
+                        <span class="hero-dots_item" onclick="currentSlide(5)"></span> 
+                        <span class="hero-dots_item" onclick="currentSlide(6)"></span>
+                        <span class="hero-dots_item" onclick="currentSlide(7)"></span> 
+                        <span class="hero-dots_item" onclick="currentSlide(8)"></span>
                     </div>
                 </div>
             </section>
