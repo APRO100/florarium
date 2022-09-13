@@ -11,19 +11,6 @@ headerBurger.addEventListener('click', function() {
 let slideIndex = 1;
 showSlides(slideIndex);
 
-let prev = document.getElementById ('prev');
-let next = document.getElementById ('next');
-
-next.addEventListener ("click", function () {
-    showSlides(slideIndex += 1);
-    makeTimer();//Пересоздаем интервал если производится нажатие 
-});
-
-prev.addEventListener ("click", function () {
-    showSlides(slideIndex -= 1);
-    makeTimer();//Пересоздаем интервал если производится нажатие 
-});
-
 /* Устанавливает текущий слайд */
 function currentSlide(n) {
     showSlides(slideIndex = n);
@@ -33,6 +20,7 @@ function showSlides(n) {
     let i;
     let slides = document.getElementsByClassName("hero__item");
     let dots = document.getElementsByClassName("hero-dots_item");
+
     if (n > slides.length) {
       slideIndex = 1;
     }
